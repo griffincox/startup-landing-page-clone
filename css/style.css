@@ -21,7 +21,7 @@ div {
 	padding: 0px 15px;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #838994;
 	letter-spacing: 0.03em;
 }
@@ -36,7 +36,11 @@ div {
 	margin-top: 10px;
 	margin-left: 25px;
 }
-.top-navigation .links > .active {
+.top-navigation .links a {
+	text-decoration: none;
+	color: #838994;
+}
+.top-navigation .links .active a {
 	color: #4c5058;
 	font-weight: 500;
 }
