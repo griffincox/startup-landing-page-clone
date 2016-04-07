@@ -10,30 +10,33 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+a:hover {
+	cursor: pointer;
+}
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
 }
-.top-navigation > .content {
+.top-navigation .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	color: #838994;
-	letter-spacing: 0.03em;
 }
 .top-navigation img {
 	margin-top: 15px;
 }
 .top-navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 25px;
 }
 .top-navigation .links li {
 	display: inline-block;
-	margin-top: 10px;
 	margin-left: 25px;
 }
 .top-navigation .links a {
@@ -45,6 +48,5 @@ div {
 	font-weight: 500;
 }
 .top-navigation .links a:hover {
-	color: #4c5058;
-	font-weight: 500;
+	color: #333333;
 }
