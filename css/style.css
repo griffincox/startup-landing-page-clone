@@ -8,6 +8,9 @@ body {
 	background-color: White;
 	font-family: 'Roboto', sans-serif;
 }
+div {
+	border: 1px solid black;
+}
 a:hover {
 	cursor: pointer;
 }
@@ -121,6 +124,11 @@ h3 {
 .case-flex .case {
 	margin: auto;
 	text-align: center;
+}
+/* Social Footer */
+.social .content .icons li {
+	display: inline-block;
+	margin-left: 25px;
 }
 
 
