@@ -8,27 +8,28 @@ body {
 	background-color: White;
 	font-family: 'Roboto', sans-serif;
 }
-div {
-	border: 1px solid black;
-}
 a:hover {
 	cursor: pointer;
 }
 /* Navigation Section */
+.content {
+	width: 970px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
-.content {
-	width: 970px;
+.top-navigation .content {
 	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
-	box-sizing: border-box;
 }
 .top-navigation img {
+	float: left;
 	margin-top: 15px;
 }
 .top-navigation .links {
@@ -107,7 +108,7 @@ h3 {
 	text-align: center;
 	margin: 1.625rem 0 3.125rem;
 }
-/* cases without flex
+/* cases without flex 
 .cases .case {
 	width: 33.333333%;
 	display: inline-block;
@@ -118,6 +119,7 @@ h3 {
 	text-align: center;
 }
 */
+/* flex */
 .case-flex {
 	display:flex;
 }
