@@ -95,5 +95,11 @@ h2 {
 	text-align: center;
 	margin: 1.625rem 0 3.125rem;
 }
+.cases .case {
+	width: 33.333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 4em;
+}
 
 
