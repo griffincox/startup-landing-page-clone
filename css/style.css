@@ -95,6 +95,13 @@ h2 {
 	text-align: center;
 	margin: 1.625rem 0 3.125rem;
 }
+h3 {
+	font-size: 1.4em;
+	font-weight: 400;
+	text-align: center;
+	margin: 1.625rem 0 3.125rem;
+}
+/* cases without flex
 .cases .case {
 	width: 33.333333%;
 	display: inline-block;
@@ -102,6 +109,13 @@ h2 {
 	height: 4em;
 	margin-right: -4px;
 	border: 1px solid black;
+	text-align: center;
+}*/
+.case-flex {
+	display:flex;
+}
+.case-flex .case {
+	margin: auto;
 	text-align: center;
 }
 
